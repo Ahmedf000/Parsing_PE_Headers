@@ -24,9 +24,6 @@ DWORD RvaToOffset(DWORD rva, PIMAGE_NT_HEADERS pNtHeaders)
 
 
 
-	
-
-
 BOOL Parse_PE(HANDLE hFile, LPCSTR lpPeName) {
 
 	BOOL bSTATE = FALSE;
